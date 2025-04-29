@@ -1,2 +1,2 @@
 # CalculusText
-# LinearAlgebraText
+# 正誤表:Correction.pdf
