@@ -1,0 +1,35 @@
+\documentclass[pdflatex,ja=standard,a4paper]{bxjsarticle}
+\usepackage{color}
+
+%opening
+\title{正誤表}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{enumerate}
+	\item[p.32 (4)]\quad 
+		\begin{description}　
+				\item[誤：] 
+		\begin{eqnarray*}
+			\lim_{n\to\infty}(\sqrt{n+2}-\sqrt{n})
+			&=& \lim_{n\to\infty}
+			\frac{(\sqrt{n+2}-\sqrt{n})(\sqrt{n+2}+\sqrt{n})}{\sqrt{n+2}+\sqrt{n}}\\
+			&=& \lim_{n\to\infty}
+			\frac{2}{(\sqrt{n+\textcolor{red}{1}}+\sqrt{n})}=0.
+		\end{eqnarray*}
+			\item[正：] 
+		\begin{eqnarray*}
+			\lim_{n\to\infty}(\sqrt{n+2}-\sqrt{n})
+			&=& \lim_{n\to\infty}
+			\frac{(\sqrt{n+2}-\sqrt{n})(\sqrt{n+2}+\sqrt{n})}{\sqrt{n+2}+\sqrt{n}}\\
+		&=& \lim_{n\to\infty}
+		\frac{2}{(\sqrt{n+\textcolor{red}{2}}+\sqrt{n})}=0.
+			\end{eqnarray*}
+		\end{description}
+	\end{enumerate}
+
+\end{document}
