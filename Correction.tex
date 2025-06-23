@@ -33,9 +33,25 @@
 \item[p.114 l.9]\quad 
 \begin{description}
 \item[誤：] 
-ここで，$x\to a+$とすると，$\lim_{x\to a}f(x)=\lim_{x\to a}\textcolor{red}{f}(x)=\infty$であること
+ここで，$x\to a+$とすると，${\displaystyle\lim_{x\to a}f(x)=\lim_{x\to a}\textcolor{red}{f}(x)=\infty}$であること
 \item[正：] 
-ここで，$x\to a+$とすると，$\lim_{x\to a}f(x)=\lim_{x\to a}\textcolor{red}{g}(x)=\infty$であること
+ここで，$x\to a+$とすると，${\displaystyle\lim_{x\to a}f(x)=\lim_{x\to a}\textcolor{red}{g}(x)=\infty}$であること
 \end{description}
+\item[p.143 l.10]
+\item[誤：] 
+$$F=f(x_1+h_1,x_2+h_2)-f(x_1+h_1,x_2)-f(x_1,x_2+h_2)\textcolor{red}{-}f(x_1,x_2)$$
+\item[正：] 
+$$F=f(x_1+h_1,x_2+h_2)-f(x_1+h_1,x_2)-f(x_1,x_2+h_2)\textcolor{red}{+}f(x_1,x_2)$$
+\item[p.149 l.8]
+\item[誤：] 
+$$\lim_{\Delta t\to0}
+\left\{
+\frac{\phi(t+\Delta t),\psi(t+\Delta t)-f(\phi(t),\psi(t))}{\Delta t}-f_{x_1}\frac{\Delta x_1}{\Delta t}-f_{x_2}\frac{\Delta x_2}{\Delta t}
+\right\}=0$$
+\item[正：] 
+$$\lim_{\Delta t\to0}
+\left\{
+\frac{\textcolor{red}{f(}\phi(t+\Delta t),\psi(t+\Delta t)-f(\phi(t),\psi(t))}{\Delta t}-f_{x_1}\frac{\Delta x_1}{\Delta t}-f_{x_2}\frac{\Delta x_2}{\Delta t}
+\right\}=0$$
 \end{enumerate}
 \end{document}
