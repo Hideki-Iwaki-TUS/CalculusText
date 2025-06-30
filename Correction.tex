@@ -1,6 +1,6 @@
 \documentclass[pdflatex,ja=standard,a4paper]{bxjsarticle}
 \usepackage{color}
-
+\newcommand{\dif}{\mathrm{d}}
 %opening
 \title{正誤表}
 \author{}
@@ -42,6 +42,17 @@
 $$F=f(x_1+h_1,x_2+h_2)-f(x_1+h_1,x_2)-f(x_1,x_2+h_2)\textcolor{red}{-}f(x_1,x_2)$$
 \item[正：] 
 $$F=f(x_1+h_1,x_2+h_2)-f(x_1+h_1,x_2)-f(x_1,x_2+h_2)\textcolor{red}{+}f(x_1,x_2)$$
+
+\item[p.148 l.4]
+\item[誤：] 
+$$dy=\frac{\partial f}{\partial x_1}\dif x_1+\frac{\partial f}{\partial x_2}\dif x_2=
+\frac{x_2^2}{(x_{\textcolor{red}{2}}^2+x_2)^2}\dif x_1+
+\frac{x_1^2}{(x_1^2+x_2)^2}\dif x_2.$$
+\item[正：] 
+$$dy=\frac{\partial f}{\partial x_1}\dif x_1+\frac{\partial f}{\partial x_2}\dif x_2
+2=
+\frac{x_2^2}{(x_{\textcolor{red}{1}}^2+x_2)^2}\dif x_1+
+\frac{x_1^2}{(x_1^2+x_2)^2}\dif x_2.$$
 \item[p.149 l.8]
 \item[誤：] 
 $$\lim_{\Delta t\to0}
